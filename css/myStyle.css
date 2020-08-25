@@ -1,0 +1,68 @@
+body{
+	background-color: #E0E0E0;
+	font-family: sans-serif;
+}
+header{
+	background-color: skyblue;
+	padding: 20px;
+}
+
+.col{
+	margin: 0;
+	padding: 0;
+}
+
+aside{
+	background-color: #9ACA40;
+	padding: 15px;
+}
+
+.row > .main{
+	background-color: #F0F3F5;
+	color: skyblue;
+	padding: 30px;
+}
+
+.main > p{
+	color: #000;
+}
+
+.row > article{
+	background-color: #4D5061;
+	color: #FFF;
+}
+
+article{
+	padding: 20px;
+}
+
+.row > .info{
+	background-color: #DEE5E8;
+	padding: 20px;
+	color: #000;
+}
+
+footer > div{
+	background-color: #424242;
+	padding: 20px;
+	color: #000;
+}
+
+.row > .foot{
+	display: inline-block;
+	font-size: 20px;
+	margin: 10px 0;
+}
+
+section.row > article.principal{
+	padding: 15em;
+	background-image: url('../img/bann.jpg');
+	background-position: center center;
+	background-size: cover;
+	color: #000;
+}
+
+.micanvas {
+	width: 200px;
+	height: 100px;
+}
